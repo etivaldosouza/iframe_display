@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+
+        * {
+         margin: 0px; 
+         padding: 0px;  
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+        body {
+            width: 100vh;
+            height: 100vh;
+            background:black url('imagens/iPhone-16-Black-wallpaper.jpg')no-repeat top center;
+            background-size:cover;
+        }
+
+        img {
+    
+            width: 50px;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+            box-sizing: border-box;
+            
+        }
+        img:hover {
+            border: 2px solid rgba(0, 0, 255, 0.637);
+            transform:translate(-3px,-3px);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+            transition: transform .3s border 1s;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 80px 50px 100px 200px;
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.youtube.com/@displayinformatica396/featured" target="_blank"><img src="imagens/logo-youtube.jpg" alt="youtube"></a><br>
+        <a href="https://maps.app.goo.gl/epXbQihvgWCYTF6P8" target="_blank"><img src="imagens/logo_display.jpg" alt="logo_display"></a><br>
+        <a href="https://wa.me/559882939509" target="_blank"><img src="imagens/logo_zap.jpg" alt="watzap"></a><br>
+        <a href="https://www.instagram.com/epsonmaranhao/" target="_blank"><img src="imagens/logo-instagram.jpg" alt="instagram"></a>
+    </div>
+    
+</body>
+</html>
