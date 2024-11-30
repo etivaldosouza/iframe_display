@@ -20,7 +20,7 @@ body {
 main {
     position: relative;
     height: 100vh;
-    
+  
     
 }
 
@@ -42,5 +42,6 @@ iframe#tela {
     left: 21px;
     width: 269px;
     height: 471px;
+    
 }
 
